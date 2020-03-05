@@ -21,4 +21,4 @@ while (a>0):
   rev = rev * 10 + last
   a = a//10
 
-print(rev)
+print(rev) 
