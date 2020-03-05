@@ -1,14 +1,8 @@
-# r = range && n = num 
-def div(r, n):
-  spam = []
-  result = []
-  for i in range(1,r):
-    spam.append(i)
-  for i in spam:
-    if i % n == 0:
-      result.append(i)
-  return result
+def div(lower, upper, divide):
+  empty = []
+  for i in range(lower, upper):
+    if i % divide == 0:
+      empty.append(i)
+  return empty
 
-print(div(100,5))
-      
-
+print(div(1,50,5))
